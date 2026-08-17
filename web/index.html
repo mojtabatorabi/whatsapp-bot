@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chat</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="header">
+
+        <div class="avatar">
+            🤖
+        </div>
+
+        <div class="header-info">
+
+            <div class="title">
+                WhatsApp AI
+            </div>
+
+            <div class="status">
+                ● آنلاین
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main id="chat" class="chat">
+
+        <div class="message assistant">
+            <div class="bubble">
+                سلام 👋
+                <br>
+                من دستیار هوش مصنوعی شما هستم.
+            </div>
+        </div>
+
+    </main>
+
+
+    <div id="typing" class="typing hidden">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+
+    <footer class="input-area">
+
+        <textarea
+            id="message"
+            placeholder="پیام خود را بنویسید..."
+            rows="1"
+        ></textarea>
+
+        <button
+            id="send"
+            onclick="sendMessage()"
+        >
+            ➤
+        </button>
+
+    </footer>
+
+</div>
+
+<script src="/static/app.js"></script>
+
+</body>
+
+</html>
