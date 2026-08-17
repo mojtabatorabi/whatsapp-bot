@@ -1,4 +1,4 @@
-module whatsapp-bot
+module github.com/mojtabatorabi/whatsapp-bot
 
 go 1.26.6
 
